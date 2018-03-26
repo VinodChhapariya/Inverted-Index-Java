@@ -1,19 +1,15 @@
 # Inverted-Index-Java
 # CONTENTS OF THIS FILE
----------------------
-   
  * Introduction
  * Requirements
  * Steps To Execute The Code
  * Troubleshooting
 
 # INTRODUCTION
-------------
 
 Problem Description: "https://moodle.iith.ac.in/mod/assign/view.php?id=1268"
 
 # SYSTEM REQUIREMENTS
---------------------
 
 -JRE1.8 and above
 -Eclipse IDE 
@@ -24,14 +20,12 @@ Problem Description: "https://moodle.iith.ac.in/mod/assign/view.php?id=1268"
  * jfreechart-1.0.6.jar
  
 # STEPS TO EXECUTE THE CODE :
---------------------------
 
 -Crawled files from first assignment are to be placed in directory named "Iutput" in project folder. 
 
 -Stop Words file is required by name "StopWords.txt" to create index I2.
 
 # Section I
----------- 
 
 -Inverted indices I1 to I4(Inverted_Index_1.txt,Inverted_Index_2.txt,Inverted_Index_3.txt,Inverted_Index_4.txt) are created as text files as per the requirements and following parameters are calculated on each of the indices.  
 	1) Number of Terms
@@ -41,7 +35,6 @@ Problem Description: "https://moodle.iith.ac.in/mod/assign/view.php?id=1268"
 	5) Size of the file that stores the index
 
 # Section II
------------
 
 	-Three Text files(Most_Frequent_K_Words.txt,Median_K_Words.txt,Least_Frequent_K_Words.txt) generated for each of the below K words and comptutation is performed on all the four indices generated in Section I.  
 
@@ -52,7 +45,6 @@ Problem Description: "https://moodle.iith.ac.in/mod/assign/view.php?id=1268"
 	-Least Frequent K (K=20) words, size of posting list of each of these K words and average gap between the documents are computed. 
 
 # Section III
------------
 
 -Graph for 1000 terms which have highest frequency in the collection is plotted (computation performed on Index-4). 
 	
@@ -61,7 +53,6 @@ Problem Description: "https://moodle.iith.ac.in/mod/assign/view.php?id=1268"
 	Y-axis -> log of collection frequency of the term.
 
 # Section IV
------------
 
 -Graph for number of tokens already found and vocabulary size is plotted (computation performed on Index-4). 
 	
@@ -69,10 +60,7 @@ Problem Description: "https://moodle.iith.ac.in/mod/assign/view.php?id=1268"
 	
 	Y-axis -> log of the vocabulary size.
 
-
- 
 # TROUBLESHOOTING
----------------
 
 Exceptions handled:
 
